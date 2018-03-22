@@ -22,8 +22,7 @@ class Account():
 if __name__ == "__main__":
     tuhoangbk2 = Account()
     acc_clone = {'usr':'tuhoang.bk2', 'pas':'hoanglung01'}
-    acc = {'usr':'tuhoang.bk', 'pas':'tuhoangbk@f@c3b00kcom'}
+    acc_clone2 = {'usr':'100025070615763', 'pas':'hoanglung01'}
     tuhoangbk2.save_obj(acc_clone, 'tuhoang_clone.pkl')
-    tuhoangbk2.save_obj(acc, 'tuhoang.pkl')
-    x= tuhoangbk2.load_obj('tuhoang_clone.pkl')
-    print(x['usr'])
+    tuhoangbk2.save_obj(acc_clone2, 'tuhoang_clone2.pkl')
+    print('ahii')
